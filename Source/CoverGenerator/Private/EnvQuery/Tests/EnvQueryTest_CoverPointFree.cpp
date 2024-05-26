@@ -1,4 +1,4 @@
-// Copyright (c) 2016 Mickaël Fourgeaud
+// Copyright (c) 2016 Mickael Fourgeaud
 
 #include "EnvQuery/Tests/EnvQueryTest_CoverPointFree.h"
 #include "CoverPoint.h"

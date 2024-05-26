@@ -1,4 +1,4 @@
-// Copyright (c) 2016 Mickaël Fourgeaud
+// Copyright (c) 2016 Mickael Fourgeaud
 
 #include "EnvQuery/Generators/EnvQueryGenerator_CoverFMemory.h"
 #include "EnvironmentQuery/Contexts/EnvQueryContext_Querier.h"

@@ -1,8 +1,9 @@
-// Copyright (c) 2016 Mickaël Fourgeaud
+// Copyright (c) 2016 Mickael Fourgeaud
 
 #pragma once
 
 #include "EnvironmentQuery/EnvQueryTest.h"
+#include "Engine/World.h"
 #include "EnvQueryTest_TraceDistance.generated.h"
 
 /**

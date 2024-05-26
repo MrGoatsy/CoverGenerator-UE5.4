@@ -1,4 +1,4 @@
-// Copyright (c) 2016 Mickaël Fourgeaud
+// Copyright (c) 2016 Mickael Fourgeaud
 
 #include "EnvQuery/EnvQueryItemType_Cover.h"
 #include "BehaviorTree/BlackboardComponent.h"

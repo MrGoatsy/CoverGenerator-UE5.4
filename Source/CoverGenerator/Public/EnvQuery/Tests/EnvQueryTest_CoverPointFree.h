@@ -1,4 +1,4 @@
-// Copyright (c) 2016 Mickaël Fourgeaud
+// Copyright (c) 2016 MickaEl Fourgeaud
 
 #pragma once
 

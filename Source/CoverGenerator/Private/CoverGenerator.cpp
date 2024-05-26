@@ -1,10 +1,11 @@
-// Copyright (c) 2016 Mickaël Fourgeaud
+// Copyright (c) 2016 Mickael Fourgeaud
 
 #include "CoverGenerator.h"
 #include "EnvQuery/EnvQueryItemType_Cover.h"
 #include "EngineUtils.h"
 #include "Kismet/KismetSystemLibrary.h"
 #include "DrawDebugHelpers.h"
+#include "Engine/HitResult.h"
 
 
 // Sets default values
@@ -468,7 +469,7 @@ void ACoverGenerator::GenerateCovers(bool ForceRegeneration, bool DoAsync)
 	FRecastDebugGeometry NavMeshGeometry;
 	NavMeshGeometry.bGatherNavMeshEdges = true;
 	NavMeshData->BeginBatchQuery();
-	NavMeshData->GetDebugGeometry(NavMeshGeometry);
+	NavMeshData->GetDebugGeometryForTile(NavMeshGeometry, -1);
 
 	// Async processing
 	if (DoAsync)

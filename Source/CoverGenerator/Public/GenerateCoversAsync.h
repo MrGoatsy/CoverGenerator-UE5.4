@@ -3,7 +3,8 @@
 #pragma once
 
 #include "Async/AsyncWork.h"
-#include "Runtime/NavigationSystem/Public/NavigationSystem.h"
+#include "NavigationSystem.h"
+#include "NavMesh/RecastNavMesh.h"
 
 class ACoverGenerator;
 
